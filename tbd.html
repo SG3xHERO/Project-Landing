@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-900 text-gray-100">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon</title>
+  <!-- Tailwind CSS @latest -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body class="h-full w-full flex flex-col font-sans relative">
+
+  <!-- Fancy Swirl / Wave Background -->
+  <div
+    class="
+      absolute inset-0
+      bg-gradient-to-bl
+      from-purple-800
+      via-blue-900
+      to-gray-900
+      opacity-75
+    "
+  ></div>
+
+  <!-- Main Content (z-10 so it’s on top of background) -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full p-8">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4">
+      Coming Soon!
+    </h1>
+    <p class="text-lg sm:text-xl text-gray-300 max-w-lg text-center mb-8">
+      Still waiting for Stack Overflow to solve our problems.
+    </p>
+
+    <!-- "Home" or "Contact" Buttons (Optional) -->
+    <div class="flex space-x-4">
+      <a
+        href="./index.html"
+        class="
+          inline-block
+          bg-pink-600
+          hover:bg-pink-700
+          text-white
+          font-semibold
+          px-5 py-3
+          rounded-full
+          transform hover:scale-105
+          transition
+          shadow-lg
+        "
+      >
+        Go to Homepage
+      </a>
+      </a>
+    </div>
+  </div>
+
+  <!-- Optional Animated Decoration -->
+  <div
+    class="
+      absolute bottom-0 left-0
+      w-40 h-40
+      bg-pink-600
+      rounded-full
+      opacity-20
+      blur-2xl
+      animate-ping
+    "
+  ></div>
+</body>
+</html>

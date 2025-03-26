@@ -1,0 +1,142 @@
+/* Updated container to accommodate larger icons */
+.app-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 200px; /* Fixed height to accommodate both image and text */
+  width: 150px; /* Increased from 100px */
+  position: relative;
+  padding-bottom: 50px; /* Space for text at bottom */
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Enlarged icons with improved base styling */
+.app-link img {
+  width: 128px;  /* Increased from 80px */
+  height: 128px; /* Increased from 80px */
+  object-fit: contain;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.3));
+  margin-bottom: 15px;
+  transform-origin: center;
+  position: relative;
+  top: 0; /* All images aligned to top */
+}
+
+/* Update the span styling to ensure text is centered */
+.app-link span {
+  position: relative;
+  bottom: 15px; /* Fixed distance from bottom */
+  left: 0;
+  right: 0;
+  height: 40px; /* Fixed height for text area */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; /* Ensure text is centered horizontally */
+  width: 100%; /* Make sure span takes full width */
+  align-items: center; /* Center items horizontally in flex container */
+}
+
+/* More pronounced hover effects */
+.app-link:hover img {
+  transform: scale(1.05);
+}
+
+/* Enhanced glow effects for each app */
+.nginx img {
+  filter: drop-shadow(0 0 12px rgba(0, 255, 136, 0.4));
+}
+
+.nginx img:hover {
+  filter: drop-shadow(0 0 20px rgba(0, 255, 136, 0.7));
+}
+
+.vaultwarden img {
+  filter: brightness(1.2) contrast(1.1) drop-shadow(0 0 12px rgba(178, 102, 255, 0.5));
+}
+
+.vaultwarden img:hover {
+  filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 20px rgba(178, 102, 255, 0.8));
+}
+
+.portainer img {
+  filter: drop-shadow(0 0 12px rgba(255, 105, 180, 0.4));
+}
+
+.portainer img:hover {
+  filter: drop-shadow(0 0 20px rgba(255, 105, 180, 0.7));
+}
+
+.password img {
+  filter: drop-shadow(0 0 12px rgba(223, 47, 127, 0.4));
+}
+
+.password img:hover {
+  filter: drop-shadow(0 0 20px rgba(223, 47, 127, 0.7));
+}
+  /* Text glow on hover */
+  .nginx span:hover {
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.7);
+  }
+  .vaultwarden span:hover {
+  text-shadow: 0 0 8px rgba(178, 102, 255, 0.7);
+  }
+  .portainer span:hover {
+  text-shadow: 0 0 8px rgba(255, 105, 180, 0.7);
+  }
+  .password span:hover {
+  text-shadow: 0 0 8px rgba(223, 47, 127, 0.6);
+  }
+  /* Docs button glow effect */
+  .docs-button {
+  transition: all 0.3s ease, box-shadow 0.3s ease;
+  }
+  .docs-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.7);
+  }
+  /* Add to your main.css file to enhance all buttons */
+
+  .btn-user {
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-user:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.7);
+  }
+  
+  .btn-user:active {
+    transform: translateY(1px);
+  }
+  
+  .btn-dev {
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-dev:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.7);
+  }
+  
+  .btn-dev:active {
+    transform: translateY(1px);
+  }
+  
+  .btn-logout {
+    transition: all 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-logout:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.7);
+  }
+  
+  .btn-logout:active {
+    transform: translateY(1px);
+  }

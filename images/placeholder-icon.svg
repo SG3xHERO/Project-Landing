@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Transparent Background -->
+  <rect width="256" height="256" fill="none" />
+  
+  <!-- App Symbol - Sized to fill most of the space -->
+  <circle cx="128" cy="128" r="100" fill="#4B5FF6" />
+  <circle cx="128" cy="128" r="50" fill="#2A3042" />
+  
+  <!-- Highlight -->
+  <circle cx="178" cy="78" r="24" fill="#EC4899" opacity="0.8" />
+</svg>

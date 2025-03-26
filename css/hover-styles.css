@@ -1,0 +1,48 @@
+.hover-effect {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .hover-effect:hover {
+    transform: scale(1.2);
+  }
+  .hover-effect img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    align-self: stretch;
+    transition: transform 0.3s ease-in-out;
+  }
+  .hover-effect:hover img {
+    transform: scale(1.2);
+  }
+  .hover-effect span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 8rem;
+    text-align: center;
+  }
+  .hover-effect.nginx:hover span {
+    color: #34d399;
+  }
+  .hover-effect.vaultwarden:hover span {
+    color: #a78bfa;
+  }
+  .hover-effect.portainer:hover span {
+    color: #f472b6;
+  }
+  .hover-effect.password:hover span {
+    color: #49e235;
+  }
+  .hover-effect.baserow:hover span {
+    color: #1c0fc9;
+  }
+  .hover-effect.wazuh:hover span {
+    color: #17e9e9;
+  }
+  .hover-effect.ticket:hover span {
+    color: #d306b1;
+  }
