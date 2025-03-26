@@ -15,7 +15,7 @@ A customizable web portal for organizing and accessing your self-hosted applicat
 
 ## Demo
 
-Check out the [live demo](https://sg3xhero.github.io/Project-Landing/) to see Project Landing in action.
+Check out the [live demo](https://sg3xhero.github.io/Project-Landing/) to see Project Landing in action. (Not Active Yet)
 
 ## Quick Start
 
